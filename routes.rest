@@ -37,4 +37,34 @@ DELETE http://localhost:8080/contacts/65b566e902f3f3feeb88e383 HTTP/1.1
 
 
 ### PRODUCTION Deploy 
-GET https://webservices-wk2.onrender.com
+GET https://net-week-3-post-put-delete.onrender.com
+
+###Get single
+GET https://net-week-3-post-put-delete.onrender.com/contacts/65b566e902f3f3feeb88e381
+
+### Create contact
+POST https://net-week-3-post-put-delete.onrender.com/contacts HTTP/1.1
+Content-Type: application/json
+
+{
+    "firstName": "Winter",
+    "lastName": "Ilikea",
+    "email": "winilikea@test.com",
+    "favoriteColor": "Orange",
+    "birthday": "09/02/15"
+}
+
+###PUT contact
+PUT https://net-week-3-post-put-delete.onrender.com/contacts/65b566e902f3f3feeb88e382 HTTP/1.1
+Content-Type: application/json
+
+{
+      "firstName": "Crystal",
+      "lastName": "Miyamoto",
+      "email": "cgoo@test.com",
+      "favoriteColor": "Forest Green",
+      "birthday": "01/28/83"
+}
+
+###DELETE contact
+DELETE https://net-week-3-post-put-delete.onrender.com/contacts/65b566e902f3f3feeb88e383 HTTP/1.1
