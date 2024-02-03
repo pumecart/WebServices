@@ -37,7 +37,7 @@ DELETE http://localhost:8080/contacts/65b566e902f3f3feeb88e383 HTTP/1.1
 
 
 ### PRODUCTION Deploy 
-GET https://net-week-3-post-put-delete.onrender.com
+GET https://net-week-3-post-put-delete.onrender.com/contacts
 
 ###Get single
 GET https://net-week-3-post-put-delete.onrender.com/contacts/65b566e902f3f3feeb88e381
