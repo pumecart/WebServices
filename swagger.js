@@ -5,8 +5,8 @@ const doc = {
     title: 'Contact API',
     description: 'Collection of Contacts'
   },
-  host: 'api.render.com/deploy/srv-cmqobta1hbls73fl9700?key=ZW95dbULha4',
-  schemes: ['https']
+  host: 'localhost:8080',
+  schemes: ['http']
 };
 
 const outputFile = './swagger.json';
